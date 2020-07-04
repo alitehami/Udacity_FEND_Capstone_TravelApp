@@ -1,10 +1,7 @@
-<center>
-
 # WetAlert
 The Traveler Weather App
  <small> **Front-End Developer, Capstone project**, Udacity Nanodegree </small>
 
- </center>
 
 ---
 ## Introduction
