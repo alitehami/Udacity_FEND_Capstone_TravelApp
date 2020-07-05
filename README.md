@@ -81,3 +81,40 @@ solution  >>    install regenerator-runtime, and import it to the async test scr
 > **Author**
 >
 > [Ali Tehami](https://www.linkedin.com/in/alitehami/ "linkedin profile")
+
+---
+
+## Project Structure
+📦WETALERT
+ ┣ 📂src
+ ┃ ┣ 📂client
+ ┃ ┃ ┣ 📂js
+ ┃ ┃ ┃ ┣ 📜formHandler.js
+ ┃ ┃ ┃ ┣ 📜nameChecker.js
+ ┃ ┃ ┃ ┗ 📜openWeatherMap.js
+ ┃ ┃ ┣ 📂styles
+ ┃ ┃ ┃ ┣ 📜base.scss
+ ┃ ┃ ┃ ┣ 📜footer.scss
+ ┃ ┃ ┃ ┣ 📜form.scss
+ ┃ ┃ ┃ ┣ 📜header.scss
+ ┃ ┃ ┃ ┗ 📜resets.scss
+ ┃ ┃ ┣ 📂views
+ ┃ ┃ ┃ ┗ 📜index.html
+ ┃ ┃ ┗ 📜index.js
+ ┃ ┗ 📂server
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┣ 📜mockAPI.js
+ ┃ ┃ ┗ 📜owmAPI.js
+ ┣ 📂__test__
+ ┃ ┣ 📜regenrator-runtime-imports.js
+ ┃ ┗ 📜testFormHandler.spec.js
+ ┣ 📜.babelrc
+ ┣ 📜.env
+ ┣ 📜.gitignore
+ ┣ 📜LICENSE
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┣ 📜Procfile
+ ┣ 📜README.md
+ ┣ 📜webpack.dev.js
+ ┗ 📜webpack.prod.js
