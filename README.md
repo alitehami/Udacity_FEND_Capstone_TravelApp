@@ -85,6 +85,7 @@ solution  >>    install regenerator-runtime, and import it to the async test scr
 ---
 
 ## Project Structure
+> Generated with the [file-tree-generator](https://marketplace.visualstudio.com/items?itemName=Shinotatwu-DS.file-tree-generator) vsCode Extension
 ```
 📦WETALERT
  ┣ 📂src
