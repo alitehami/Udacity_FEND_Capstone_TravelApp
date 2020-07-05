@@ -85,6 +85,7 @@ solution  >>    install regenerator-runtime, and import it to the async test scr
 ---
 
 ## Project Structure
+```
 📦WETALERT
  ┣ 📂src
  ┃ ┣ 📂client
@@ -118,3 +119,4 @@ solution  >>    install regenerator-runtime, and import it to the async test scr
  ┣ 📜README.md
  ┣ 📜webpack.dev.js
  ┗ 📜webpack.prod.js
+ ```
