@@ -1,14 +1,15 @@
 # WetAlert
-The Traveler Weather App
- <small> **Front-End Developer, Capstone project**, Udacity Nanodegree </small>
 
+The Traveler Weather App
+<small> **Front-End Developer, Capstone project**, Udacity Nanodegree </small>
 
 ---
+
 ## Introduction
 
 > **Udacity**
-"This project requires you to build out a travel app that, at a minimum, obtains a desired trip location & date from the user, and displays weather and an image of the location using information obtained from external APIs. Given that this is the Capstone project, it's highly encouraged for you to go above and beyond, adding additional functionality and customization to truly stand out with a project you are proud to have at the top of your portfolio!"
->
+> "This project requires you to build out a travel app that, at a minimum, obtains a desired trip location & date from the user, and displays weather and an image of the location using information obtained from external APIs. Given that this is the Capstone project, it's highly encouraged for you to go above and beyond, adding additional functionality and customization to truly stand out with a project you are proud to have at the top of your portfolio!"
+
 ---
 
 ## Developemnt Process & TO-DO list:
@@ -19,9 +20,9 @@ The Traveler Weather App
 4. [ ] Introduce a countdown from user's entered date of travel.
 5. [ ] Create an account with Weatherbit, and setup to pull in Weather & Forecast data by Location.
 6. [ ] Create an account with Pixabay, and setup to pull in images about the Location & Country.
-7. [ ] *(bonus)* Adding Users Creation & Authentecation to store data per user and keep the user data stored in the server for future retrieval. (using bcrypt + Cookies/SessionStorage/LocalStorage)
-8. [ ] *(bonus)* Integrate the REST Countries API to pull in data for the country being visited.
-9. [ ] *(bonus)* Allow the user to add a todo list and/or packing list for their trip.
+7. [ ] _(bonus)_ Adding Users Creation & Authentecation to store data per user and keep the user data stored in the server for future retrieval. (using bcrypt + Cookies/SessionStorage/LocalStorage)
+8. [ ] _(bonus)_ Integrate the REST Countries API to pull in data for the country being visited.
+9. [ ] _(bonus)_ Allow the user to add a todo list and/or packing list for their trip.
 
 #### npm dependencies and libraries used:
 
@@ -32,6 +33,7 @@ The Traveler Weather App
 - bcrypt
 - dotenv
 - nodemon
+- node-fetch
 
 ---
 
@@ -43,8 +45,6 @@ The Traveler Weather App
 - [Weatherbit](https://www.weatherbit.io/account/create) to pull in the weather and forecast data.
 - [Pixabay](https://pixabay.com/api/docs/) for pulling images.
 - [REST Countries API](https://restcountries.eu/) to pull in data for the country in query.
-
----
 
 #### 2. Articles and useful resources:
 
@@ -62,7 +62,17 @@ The Traveler Weather App
 - [Build Node.js User Authentication - Password Login (Hashing with bcrypt)](https://www.youtube.com/watch?v=Ud5xKCYQTjM)
 - [Node.js Passport Login System Tutorial](https://www.youtube.com/watch?v=-RCnNyD0L-s)
 
-#### 3. Other interesting stuff:
+#### 3. Issues and fixes:
+
+- Errors in **_jest_** testing for async functions:[github:bebel](https://github.com/babel/babel/issues/9849), [stackoverflow](https://stackoverflow.com/questions/42535270/regeneratorruntime-is-not-defined-when-running-jest-test)
+
+```
+error     >>    "ReferenceError: regeneratorRuntime is not defined"
+solution  >>    install regenerator-runtime, and import it to the async test scripts:
+                import "regenerator-runtime/runtime"
+```
+
+#### 4. Other interesting stuff:
 
 - [MetaWeather - Open key-free API for weather forecast](https://www.metaweather.com/api/ "Open key-free API for weather forecast")
 
