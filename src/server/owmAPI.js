@@ -1,4 +1,4 @@
-const apiKey = "33831b5edaf31cdc9378937ba7166f6d";
+const apiKey = process.env.OWM_KEY;
 const apiCall = (zip, country, units, apikey = apiKey) => {
   return `http://api.openweathermap.org/data/2.5/weather?zip=${zip},${country}&units=${units}&appid=${apikey}`;
 };
