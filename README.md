@@ -34,6 +34,7 @@ The Traveler Weather App
 - dotenv
 - nodemon
 - node-fetch
+- concurrently
 
 ---
 
