@@ -1,9 +1,10 @@
+//TODO:This is NOT working
 
 function handleSubmit(event) {
-    event.preventDefault()
+    // event.preventDefault()
 
     // check what text was put into the form field
-    let formText = document.getElementById('name').value
+    let formText = document.getElementById('feelings').value
 
     Client.checkForName(formText)
     Client.melbourneWeather();
